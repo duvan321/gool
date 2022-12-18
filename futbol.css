@@ -1,0 +1,202 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background:green
+
+}
+
+#container{
+    position: relative;
+    height: 200vh;
+}
+
+
+.gool{
+    right: 40%;
+    position: fixed;
+    top: 100px;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+
+#jugador{
+    width: 290px;
+    height: 290px; 
+    position: fixed;
+    box-sizing: border-box;
+     bottom: 150px;
+}
+#arquero{
+width: 330px;
+    height: 330px; 
+    position: fixed;
+    box-sizing: border-box;
+   left: 960px; 
+   top: 340px;
+}
+
+#balon1{
+width: 100px;
+
+
+
+}
+.imagen{
+    width: 50px;
+    background:green;
+}
+#item{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-73%);
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 90%;
+    height: 200vh;
+    
+    border-radius: 50% 50% 0px 0px;     
+}
+
+#imagenes{
+    position: sticky;
+   top: 490px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+    width: 100%;       
+}
+@media screen and (max-width:900px){
+*{
+margin: 0;
+}
+.gool{
+right: 35%;
+top: 200px;
+width: 80px;
+height: 80px;
+border-radius: 50%;
+}
+#container{
+    position: relative;
+    height: 50vh;
+}
+#jugador{
+    width: 180px;
+    height: 180px; 
+    position: fixed;
+    box-sizing: border-box;
+     bottom: 200px;
+   
+}
+.imagen{
+    width: 29px;
+    background:green;
+}
+#item{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-80%);
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 90%;
+    height: 200vh;
+    
+    border-radius: 50% 50% 0px 0px;     
+}
+
+#imagenes{
+    position: sticky;
+    top: 470px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+    width: 100%;       
+}
+#arquero{
+width: 180px;
+    height: 180px; 
+    position: fixed;
+    box-sizing: border-box;
+  left: 310px; 
+   top: 390px;
+}
+}
+@media screen and (max-width:500px){
+*{
+margin: 0;
+}
+.gool{
+top: 200px;
+width: 60px;
+height: 60px;
+border-radius: 50%;
+
+}
+
+#container{
+    position: relative;
+    height: 50vh;
+}
+
+#jugador{
+    width: 100px;
+    height: 100px; 
+    position: fixed;
+    box-sizing: border-box;
+     bottom: 200px;
+}
+.imagen{
+    width: 15px;
+    background:green;
+}
+#item{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-80%);
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 90%;
+    height: 200vh;
+    
+    border-radius: 50% 50% 0px 0px;     
+}
+
+#imagenes{
+    position: sticky;
+    top: 460px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+    width: 100%;       
+}
+#arquero{
+width: 110px;
+    height: 130px; 
+    position: fixed;
+    box-sizing: border-box;
+  left: 180px; 
+   top: 400px;
+}
+}
