@@ -1,59 +1,108 @@
-*{
+* {
+  margin: 0;
+}
+
+body {
+  background: green;
+}
+
+#container {
+  position: relative;
+  height: 100rem;
+}
+
+.gool {
+  right: 40rem;
+  position: fixed;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  bottom: 23rem;
+}
+
+#jugador {
+  width: 290px;
+  height: 290px;
+  position: fixed;
+  box-sizing: border-box;
+  bottom: 10rem;
+}
+#arquero {
+  width: 390px;
+  height: 330px;
+  position: fixed;
+  box-sizing: border-box;
+  left: 60rem;
+  top: 20.5rem;
+}
+
+#balon1 {
+  width: 100rem;
+}
+.imagen {
+  width: 50px;
+  background: green;
+}
+#item {
+  position: absolute;
+  top: 25rem;
+  left: 50rem;
+  transform: translate(-83%);
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  width: 90%;
+  height: 100rem;
+
+  border-radius: 50% 50% 0px 0px;
+}
+
+#imagenes {
+  position: sticky;
+  top: 30rem;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+
+  width: 100%;
+}
+@media screen and (max-width: 740px) {
+  * {
     margin: 0;
-}
-
-body{
-    background:green
-
-}
-
-#container{
-    position: relative;
-    height: 100rem;
-}
-
-
-.gool{
-    right: 40rem;
-    position: fixed;
-    width: 180px;
-    height: 180px;
+  }
+  .gool {
+    top: 15rem;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
-    bottom: 23rem;
-}
+    left: 10rem;
+  }
 
+  #container {
+    position: relative;
+    height: 50rem;
+  }
 
-#jugador{
-    width: 290px;
-    height: 290px; 
-    position: fixed;
+  #jugador {
+    width: 100px;
+    height: 100px;
+
     box-sizing: border-box;
-     bottom: 10rem;
-}
-#arquero{
-    width: 390px;
-    height: 330px; 
-    position: fixed;
-    box-sizing: border-box;
-   left: 60rem; 
-   top: 20.5rem;
-}
-
-#balon1{
-width: 100rem;
-
-
-
-}
-.imagen{
-    width: 50px;
-    background:green;
-}
-#item{
+    bottom: 17rem;
+    left: 0rem;
+  }
+  .imagen {
+    width: 15px;
+    background: green;
+  }
+  #item {
     position: absolute;
     top: 25rem;
-    left: 50rem;
-    transform: translate(-83%);
+    left: 10rem;
+    transform: translate(-65%);
 
     display: flex;
     flex-direction: row;
@@ -61,82 +110,24 @@ width: 100rem;
     flex-wrap: wrap;
     box-sizing: border-box;
     width: 90%;
-    height: 100rem;
-    
-    border-radius: 50% 50% 0px 0px;     
-}
+    height: 200rem;
 
-#imagenes{
+    border-radius: 50% 50% 0px 0px;
+  }
+
+  #imagenes {
     position: sticky;
-    top: 30rem;
-    display: flex;
+    bottom: 0rem;
     justify-content: space-between;
     box-sizing: border-box;
 
-    width: 100%;       
+    width: 100%;
+  }
+  #arquero {
+    width: 85px;
+    height: 130px;
+    box-sizing: border-box;
+    left: 16rem;
+    top: 26rem;
+  }
 }
-@media screen and (max-width:740px){
-    *{
-        margin: 0;
-        }
-        .gool{
-        top: 15rem;
-        width: 60px;
-        height: 60px;
-        border-radius: 50%;
-        left: 10rem;
-        
-        }
-        
-        #container{
-            position: relative;
-            height: 50rem;
-          
-        }
-        
-        #jugador{
-            width: 100px;
-            height: 100px; 
-        
-            box-sizing: border-box;
-             bottom: 17rem;
-             left:0rem;
-        }
-        .imagen{
-            width: 15px;
-            background:green;
-        }
-        #item{
-            position: absolute;
-            top: 25rem;
-            left: 10rem;
-            transform: translate(-65%);
-        
-            display: flex;
-            flex-direction: row;
-            align-items: flex-start;
-            flex-wrap: wrap;
-            box-sizing: border-box;
-            width: 90%;
-            height: 200rem;
-            
-            border-radius: 50% 50% 0px 0px;     
-        }
-        
-        #imagenes{
-            position: sticky;
-            bottom: 0rem;
-            justify-content: space-between;
-            box-sizing: border-box;
-        
-            width: 100%;       
-        }
-        #arquero{
-            width: 85px;
-            height: 130px; 
-            box-sizing: border-box;
-            left: 16rem; 
-            top: 26rem;
-        }
-        }
-         
