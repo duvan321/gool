@@ -11,15 +11,13 @@
 - relative position
 
 - position: fixed;
-  
 - position: sticky;
-
 
 - <p>as we can also notice, we work with the Flex box property in different containers.</p>
 
 💬How to contact me : *diegoduva321@gmail.com*
 
-- - -
+---
 
 <div align="left">
 <h3>🔨Languages and tools used:</h3>
